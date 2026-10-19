@@ -18,7 +18,7 @@ int main()
     cout << "Enter an integer within the range of 1 through 10: ";
     cin >> numberGiven;
 
-    if (numberGiven < 1 || numberGiven > 10) {      //*input validation: use an if loop to check that the user's integer is between 1-10, and if not, display the fact
+    if (numberGiven < 1 || numberGiven > 10) {      //*input validation: use an if conditional to check that the user's integer is between 1-10, and if not, display the fact
 
         cout << "\n" << "The integer you have entered is not within the range of 1 through 10!" << "\n";
 
